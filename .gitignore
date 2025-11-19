@@ -1,0 +1,24 @@
+# 1. Thư mục và file của Visual Studio Code (IDE)
+###############################################
+.vscode/
+
+# 2. Thư mục và file sinh ra từ quá trình build (CMake)
+###############################################
+# Thư mục build chính (quan trọng nhất!)
+build/
+out/
+bin/
+
+# File cấu hình và cache của CMake
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# 3. File nhị phân (Executable)
+###############################################
+# Loại bỏ tất cả các file thực thi Windows
+*.exe
+# Loại bỏ các file đối tượng
+*.o
