@@ -3,7 +3,7 @@ project(SFML_GAME2)
 
 
 set(CMAKE_CXX_STANDARD 17)
-include_directories("E:/install/msys64/ucrt64/include")
+include_directories("E:/install/msys64/ucrt64/include") //dia chi thu vien sfml 2.x.x
 
 set(src
     sc/main.cpp
