@@ -52,8 +52,8 @@ void BasePainter::setup() {
     MaxScoreButton.setOutlineColor(Color((255, 183, 77)));
     MaxScoreButtonText.setFont(font);
     MaxScoreButtonText.setCharacterSize(50);
-    MaxScoreButtonText.setString("MAX SCORE");
-    MaxScoreButtonText.setPosition(Vector2f(215.f, 525.f));
+    MaxScoreButtonText.setString("HIGH SCORE");
+    MaxScoreButtonText.setPosition(Vector2f(208.f, 525.f));
 
     Best.setSize(Vector2f(290.f, 70.f));
     Best.setPosition(Vector2f(360.f, 30.f));

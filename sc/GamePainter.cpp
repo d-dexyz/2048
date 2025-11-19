@@ -38,7 +38,7 @@ void GamePainter::drawGameOver(const Board& board, bool showOver) {
     window.draw(Best);
     window.draw(Pic2);
     SumScoreText.setString("SCORE : " + to_string(board.Score()));
-    BestText.setString("BEST : " + to_string(board.loadHighScore()));
+    BestText.setString("HIGH : " + to_string(board.loadHighScore()));
     window.draw(SumScoreText);
     window.draw(BestText);
     if (showOver) {
